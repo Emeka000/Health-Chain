@@ -1,5 +1,14 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { Heart, ShieldCheck, Hospital, Wallet } from "lucide-react";
 import Link from "next/link";
 
@@ -7,8 +16,12 @@ const Dashboard = () => {
   return (
     <div className="space-y-8 max-md:mt-11">
       <div className="space-y-2 flex flex-col items-center">
-        <h1 className="text-3xl font-bold tracking-tight">Welcome to Health-Chain Nexus</h1>
-        <p className="text-muted-foreground">Your decentralized health records at your fingertips</p>
+        <h1 className="text-3xl font-bold tracking-tight">
+          Welcome to Health-Chain Nexus
+        </h1>
+        <p className="text-muted-foreground">
+          Your decentralized health records at your fingertips
+        </p>
       </div>
 
       <div className="flex items-center p-4 bg-primary/10 border border-primary/20 rounded-lg">
@@ -17,7 +30,9 @@ const Dashboard = () => {
         </div>
         <div>
           <h3 className="font-medium">Your blockchain identity is active</h3>
-          <p className="text-sm text-muted-foreground">Token ID: #8734-2900-1257-3991</p>
+          <p className="text-sm text-muted-foreground">
+            Token ID: #8734-2900-1257-3991
+          </p>
         </div>
       </div>
 
@@ -28,7 +43,9 @@ const Dashboard = () => {
               <Hospital className="mr-2 h-5 w-5 text-primary" />
               My Health Records
             </CardTitle>
-            <CardDescription>View and manage your health records</CardDescription>
+            <CardDescription>
+              View and manage your health records
+            </CardDescription>
           </CardHeader>
           <CardContent>
             <div className="text-sm">
@@ -117,7 +134,9 @@ const Dashboard = () => {
       </div>
 
       <div className="mt-8">
-        <h2 className="text-2xl font-bold mb-4">Health-Chain Blockchain Stats</h2>
+        <h2 className="text-2xl font-bold mb-4">
+          Health-Chain Blockchain Stats
+        </h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           <div className="bg-card p-4 rounded-lg text-center">
             <p className="text-muted-foreground text-sm">Records Stored</p>
