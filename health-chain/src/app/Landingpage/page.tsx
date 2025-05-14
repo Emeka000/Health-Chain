@@ -252,7 +252,7 @@ const LandingPage = () => {
               <a href="#security" className="text-sm hover:text-primary">Security</a>
             </nav>
             <div className="text-sm text-muted-foreground">
-              &copy; 2025 Health-Chain Nexus. All rights reserved.
+              &copy; 2025 Health-Chain. All rights reserved.
             </div>
           </div>
         </div>

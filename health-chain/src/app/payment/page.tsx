@@ -204,7 +204,7 @@ const Payment = () => {
               </div>
             </div>
             <p className="text-sm text-muted-foreground">
-              Health-Chain Nexus uses StarkNet's Layer 2 blockchain technology to provide secure, 
+              Health-Chain uses StarkNet's Layer 2 blockchain technology to provide secure, 
               transparent, and efficient healthcare payments. Zero-knowledge proofs ensure your 
               payment information remains private while still being verifiable.
             </p>
